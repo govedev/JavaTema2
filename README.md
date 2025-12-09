@@ -129,7 +129,8 @@ palabra = palabra.replaceAll(" ","");
 ```java
 char[] arrayDeCaracteres = string.toCharArray();
 // ... manipular arrayDeCaracteres ...
-return new String(arrayDeCaracteres);```
+return new String(arrayDeCaracteres);
+```
 
 ## 3. Modularidad (Métodos)
 Bloques de código reutilizables que realizan una tarea específica. Ayudan a organizar y simplificar el programa.
@@ -150,7 +151,8 @@ public static void borrarPantalla() {
         System.out.println();
     }
 }
-```### Métodos que devuelven un valor (`return`)
+```
+### Métodos que devuelven un valor (`return`)
 Realizan un cálculo o una operación y devuelven un resultado, que debe ser del mismo tipo que el `tipo_retorno`.
 ```java
 // Devuelve un boolean
@@ -188,7 +190,8 @@ public static float calcularPromedio(float [] cal) {
 Los paquetes son carpetas que agrupan clases relacionadas, evitando conflictos de nombres y mejorando la organización.
 
 ### Declarar un Paquete
-La primera línea del fichero `.java` debe ser la declaración del paquete.```java
+La primera línea del fichero `.java` debe ser la declaración del paquete.
+```java
 package ejercicio6.main;
 ```
 ### Importar Clases de otros Paquetes
@@ -198,6 +201,8 @@ Para usar una clase que está en otro paquete, se debe importar.
 import ejercicio6.methods.metodos;
 ```
 ### Uso de Clases Importadas
-Una vez importada, se pueden llamar a sus métodos estáticos usando `NombreClase.nombreMetodo()`.```java
+Una vez importada, se pueden llamar a sus métodos estáticos usando `NombreClase.nombreMetodo()`.
+```java
 // 'metodos' es la clase importada, 'convertirH1' es un método estático de esa clase
-cadenasUsuarioStrings[i] = metodos.convertirH1(cadenaUsuario);```
+cadenasUsuarioStrings[i] = metodos.convertirH1(cadenaUsuario);
+```
